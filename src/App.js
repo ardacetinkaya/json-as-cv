@@ -13,7 +13,7 @@ function App() {
       <div class="body-wrapper">
         <div class="light-wrapper">
           <div class="container inner">
-            <Info data={data.info} />
+            <Info data={data.info} settings={data.settings} />
             <br />
             <div class="timeline">
               <Experience data={data.experiences} />

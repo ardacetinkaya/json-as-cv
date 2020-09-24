@@ -8,7 +8,7 @@ class Info extends React.Component {
         link.type = "text/css";
         link.rel = "stylesheet";
         headID.appendChild(link);
-        link.href = "style/css/color/red.css";
+        link.href = `style/css/color/${this.props.settings.color}.css`;
     }
     render() {
         return (
