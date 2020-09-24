@@ -119,6 +119,13 @@ With a beneficial web application, this could be an solution for **"I want to le
 </details>
 
 
+## !!!UPDATE!!!
+
+With GitHub API integration results from ```https://api.github.com/users/{username}/repos```, CV can show info about some GitHub repositories.
+
+<img src="https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Repos.png" width="650">
+
+
 ## Deploy Your Own CV
 
 Deploy your own json as CV project, along with Serverless Functions, with Vercel.
