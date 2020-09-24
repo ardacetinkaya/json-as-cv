@@ -8,23 +8,6 @@ With a beneficial web application, this could be a solution for **"I want to lea
 
 ![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI.png)
 
-With *.json file it is also possible to set color style for the CV.
-Current UI template is done by @elemis.
-
-
-```json
-
-{
-    "settings": {
-        "color": "purple"
-    }
-    ......
-    ...
-}
-```
-
-![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Color.png)
-
 
 <details>
   <summary>Click to see as json</summary>
@@ -136,6 +119,25 @@ Current UI template is done by @elemis.
 ```
 </details>
 
+Within _*.json_ file it is also possible to set color style for the CV.
+
+Current UI template is done by [@elemis](https://github.com/elemis)
+
+New templates might be done with ease, feel free to implement your creations.
+
+
+```json
+
+{
+    "settings": {
+        "color": "purple"
+    }
+    ..
+    ..
+}
+```
+
+![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Color.png)
 
 ## !!!UPDATE!!!
 
