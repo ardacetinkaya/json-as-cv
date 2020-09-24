@@ -2,9 +2,9 @@
 
 # json As CV
 
-This is a repository to create CV just with a _*.json_ file. Also it is a good start to learn React, some JavaScript and HTML. 
+This is a repository to create CV just with a _*.json_ file. Also it is a good start to learn React. 
 
-With a beneficial web application, this could be an solution for **"I want to learn programming but I don’t know where to start"** dilemma and also for your CV.
+With a beneficial web application, this could be a solution for **"I want to learn programming but I don’t know where to start"** dilemma and also for your CV.
 
 ![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI.png)
 
