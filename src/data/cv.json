@@ -1,14 +1,3 @@
-![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV.png)
-
-# json As CV
-
-This is a simple repository to create CV within just a _*.json_ file. Also it is a good start to learn React, some JavaScript and HTML. 
-
-With a beneficial web application, this could be an solution for **"I want to learn programming but I don’t know where to start"** dilemma and also for your CV.
-
-
-```json
-
 {
     "settings": {
         "color": "red"
@@ -37,6 +26,15 @@ With a beneficial web application, this could be an solution for **"I want to le
                 "start": "Feb. 2015",
                 "end": "",
                 "tags": [
+                    "MCV",
+                    "ASPNET",
+                    "NETFramework",
+                    "SQLServer",
+                    "EntityFramework",
+                    "WCF",
+                    "AOP",
+                    "DI",
+                    "SOA",
                     "DDD",
                     "SignalR",
                     "Redis",
@@ -58,7 +56,17 @@ With a beneficial web application, this could be an solution for **"I want to le
                 "tags": [
                     "MCV",
                     "ASPNET",
-                    "NETFramework"
+                    "NETFramework",
+                    "SQLServer",
+                    "EntityFramework",
+                    "WCF",
+                    "AOP",
+                    "DI",
+                    "SOA",
+                    "DDD",
+                    "SignalR",
+                    "Redis",
+                    "ITIL"
                 ]
             }
         ]
@@ -109,18 +117,3 @@ With a beneficial web application, this could be an solution for **"I want to le
         ]
     }
 }
-```
-
-## Deploy Your Own CV
-
-Deploy your own json as CV project, along with Serverless Functions, with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ardacetinkaya/json-as-cv)
-
-_Live Example: https://json-as-cv.vercel.app/_
-
-#### OR
-
-
-Now within [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/) you can also deploy your own json as CV project to Azure
-Details: [Quickstart: Building your first static web app](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=vanilla-javascript)
