@@ -6,6 +6,12 @@ This is a simple repository to create CV within just a _*.json_ file. Also it is
 
 With a beneficial web application, this could be an solution for **"I want to learn programming but I don’t know where to start"** dilemma and also for your CV.
 
+![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI.png)
+
+<details>
+  <summary>Click to see as json</summary>
+  
+  ## CV.json
 
 ```json
 
@@ -110,6 +116,8 @@ With a beneficial web application, this could be an solution for **"I want to le
     }
 }
 ```
+</details>
+
 
 ## Deploy Your Own CV
 
