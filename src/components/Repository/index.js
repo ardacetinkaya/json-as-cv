@@ -8,19 +8,22 @@ class Repository extends React.Component {
         this.state = {
             repositories: [],
         };
-    }
-    getGitHubRepositories = (username) => {
-
-        if (username) {
-            fetch(`https://api.github.com/users/${username}/repos`)
+        
+        if (this.props.data) {
+            fetch(`https://api.github.com/users/${this.props.data}/repos`)
                 .then(resp => resp.json())
                 .then((data) => {
                     this.setState({
                         repositories: data
                     })
                 });
+        }
+    }
+    getGitHubRepositories = (username) => {
+
+        if (username) {
             let repositories = this.state.repositories.filter(this.repositoryFilters).sort((a, b) => Date.parse(b.updated_at) - Date.parse(a.updated_at));
-            return repositories.slice(0,5).map(function (item, index) {
+            return repositories.slice(0, 5).map(function (item, index) {
                 return (
                     <div key={index} class={`col-sm-6 timeline-item ${(index % 2 === 0) ? 'left' : 'right'}`}>
                         <div class="arrow"></div>
@@ -52,7 +55,7 @@ class Repository extends React.Component {
         }
     }
     repositoryFilters = (item) => {
-        return item.fork !==true && item.description!==null && item.stargazers_count >0;
+        return item.fork !== true && item.description !== null && item.stargazers_count > 0;
     }
 
     render() {
