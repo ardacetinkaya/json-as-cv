@@ -139,11 +139,18 @@ New templates might be done with ease, feel free to implement your creations.
 
 ![CV](https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Color.png)
 
-## !!!UPDATE!!!
+
+### GitHub Integration
 
 With GitHub API integration results from ```https://api.github.com/users/{username}/repos```, CV can show info about some GitHub repositories.
 
 <img src="https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Repos.png" width="650">
+
+## !!!UPDATE!!!
+
+- Language proficiencies is added.
+
+<img src="https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Languages.png" width="650">
 
 
 ## Deploy Your Own CV

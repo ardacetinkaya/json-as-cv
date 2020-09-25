@@ -65,7 +65,7 @@ ul.circled li:before {
 .timeline .date-title span {
     background: #e0676a;
 }
-.timeline-item .post-content:before {
+.timeline-item:not(.full) .post-content:before {
     background: #e0676a;
 }
 .sidebox a:hover {

@@ -51,7 +51,7 @@ class Experience extends React.Component {
         return (
             <>
                 <div class="date-title">
-                    <span>{this.props.title || "Experiences"}</span>
+                    <span>{this.props.data.title || "Experiences"}</span>
                 </div>
                 <div class="row">
                     {this.getItems(this.props.data.items)}

@@ -115,5 +115,18 @@
                 "score": 14
             }
         ]
+    },
+    "languages": {
+        "title": "Language Proficiency",
+        "items": [
+            {
+                "name": "Elvish",
+                "proficiency": "Native proficiency"
+            },
+            {
+                "name": "Klingon",
+                "proficiency": "Full business proficiency"
+            }
+        ]
     }
 }

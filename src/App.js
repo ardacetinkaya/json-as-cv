@@ -5,6 +5,7 @@ import Info from './components/Info'
 import Skill from './components/Skill'
 import Repository from './components/Repository'
 import data from './data/cv.json';
+import Language from './components/Language';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
               <Education data={data.educations} />
               <Skill data={data.skills} />
               <Repository data={data.info.github} />
+              <Language data={data.languages} />
             </div>
           </div>
         </div>
