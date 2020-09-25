@@ -123,7 +123,9 @@ Within _*.json_ file it is also possible to set color style for the CV.
 
 Current UI template is done by [@elemis](https://github.com/elemis)
 
-New templates might be done with ease, feel free to implement your creations.
+New templates might be done with ease, feel free to implement your creations. For now, just colors of template can be set within _*.json_ file.
+
+Avaliable colors; red, purple, green, blue, brown, lime, navy, orange, pink, yellow
 
 
 ```json
