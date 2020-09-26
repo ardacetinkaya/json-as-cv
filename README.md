@@ -150,7 +150,7 @@ With GitHub API integration results from ```https://api.github.com/users/{userna
 
 ## !!!UPDATE!!!
 
-- Export to PDF is added but need a fix for page size problem.
+- Export to PDF is added.
 - Language proficiencies is added.
 
 <img src="https://github.com/ardacetinkaya/json-as-cv/blob/master/CV-UI-Languages.png" width="650">
