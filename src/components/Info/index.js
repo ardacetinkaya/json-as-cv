@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import PDFExport from '../../components/PDFExport';
 class Info extends React.Component {
     componentDidMount() {
         document.title = this.props.data.name;
@@ -14,6 +15,7 @@ class Info extends React.Component {
         return (
             <div class="section-title text-left">
                 <h1 class="pull-left">{this.props.data.name}</h1>
+                <PDFExport></PDFExport>
                 {this.props.data.file ? <a href={`${this.props.data.file}`} class="btn btn-navy btn-icon pull-right"><i class="jam jam-download"></i> Download</a> : ""}
                 <div class="clearfix"></div>
                 <ul class="info list-inline">

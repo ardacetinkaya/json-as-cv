@@ -5,7 +5,7 @@ class Language extends React.Component {
     getItems = (items) => {
         return items.map(function (item, index) {
             return (
-                <tr>
+                <tr key={index}>
                     <td>{item.name}</td>
                     <td>{item.proficiency}</td>
                 </tr>
