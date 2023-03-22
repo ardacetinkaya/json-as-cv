@@ -8,6 +8,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.6.1",
     "react-scripts": "^2.1.8"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "dev": "BROWSER=none react-scripts start --openssl-legacy-provider start",
