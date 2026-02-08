@@ -3256,4 +3256,93 @@ blockquote {
     }
 }
 
+/*-----------------------------------------------------------------------------------*/
+/* PDF EXPORT STYLES
+/*-----------------------------------------------------------------------------------*/
+body.pdf-exporting {
+    width: 960px !important;
+    overflow: hidden !important;
+}
+body.pdf-exporting #root {
+    width: 960px !important;
+    max-width: 960px !important;
+    overflow: hidden !important;
+}
+body.pdf-exporting .timeline:before {
+    display: none;
+}
+body.pdf-exporting .timeline-item .arrow:after,
+body.pdf-exporting .timeline-item .arrow:before {
+    display: none;
+}
+body.pdf-exporting .timeline-item:not(.full) .post-content:before {
+    display: none;
+}
+body.pdf-exporting .timeline-item.right .post-content:before {
+    display: none;
+}
+body.pdf-exporting .timeline-item {
+    float: none !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 0 !important;
+}
+body.pdf-exporting .timeline-item .post-content {
+    margin: 10px 0 !important;
+    overflow: hidden !important;
+    word-wrap: break-word !important;
+}
+body.pdf-exporting .timeline-item.right .post-content {
+    margin: 10px 0 !important;
+}
+body.pdf-exporting .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 15px !important;
+    box-sizing: border-box !important;
+}
+body.pdf-exporting .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    overflow: hidden !important;
+}
+body.pdf-exporting [class*="col-"] {
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+body.pdf-exporting .list-inline {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+    padding-left: 0 !important;
+}
+body.pdf-exporting .list-inline li {
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+body.pdf-exporting .meta.small {
+    overflow: hidden !important;
+}
+body.pdf-exporting .progress-list {
+    padding-right: 10px !important;
+}
+body.pdf-exporting .section-title {
+    overflow: hidden !important;
+}
+body.pdf-exporting .lead {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+body.pdf-exporting .all-repositories {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+body.pdf-exporting .light-wrapper {
+    overflow: hidden !important;
+}
+body.pdf-exporting .body-wrapper {
+    overflow: hidden !important;
+}
+
 
